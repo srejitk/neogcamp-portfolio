@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap");
+
+:root {
+  --primary-color: #43abff;
+  --bg-color: #e4f3fe;
+  --off-white: white;
+  --secondary-color: #ff9843;
+  --hover: #1800ca;
+  --try1: #434dff;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg-color);
+}
+
+.navigation-container {
+  background: var(--try1);
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  text-align: left;
+}
+
+.navigation-container h2 {
+  font-size: 2rem;
+  padding-inline-start: 2rem;
+}
+.navigation-container ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.navigation-container a {
+  text-decoration: none;
+}
+
+.navigation-container li {
+  display: inline;
+  margin: 1rem;
+}
+
+.nav-bar-items .active {
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background: var(--hover);
+  border-radius: 18px;
+  border: 2px solid white;
+}
+.nav-bar-items .active:hover {
+  background: var(--hover);
+}
+
+.nav-bar-items .non-active {
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background: var(--try1);
+  border-radius: 18px;
+}
+
+.nav-bar-items .non-active:hover {
+  background: var(--hover);
+}
+
+.hero-class {
+  background-image: linear-gradient(
+    to bottom,
+    var(--try1) 70%,
+    var(--bg-color) 30%
+  );
+  margin: 0rem;
+  height: 50vh;
+  padding: 3rem;
+}
+
+.hero-text {
+  background: white;
+  height: 60vh;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+}
+.hero-text p {
+  width: 60%;
+  font-size: 2rem;
+  max-width: 700px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.hero-text h1 {
+  width: 60%;
+  font-size: 3rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.hero-img img {
+  float: right;
+  padding: 0rem 5rem 0rem 5rem;
+  max-width: 400px;
+  display: block;
+  width: 80%;
+  height: 50%;
+}
+
+.section-one {
+  background: white;
+  height: 30vh;
+  border-radius: 8px;
+  padding-top: 5rem;
+  padding: 2rem;
+  margin: 7rem 3rem 0rem;
+}
+
+.section-one h1 {
+  width: 60%;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.section-one p {
+  width: 60%;
+  font-size: 1.7rem;
+  max-width: 700px;
+  word-wrap: break-word;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.section-one a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background: var(--try1);
+  border-radius: 18px;
+}
+
+.section-two {
+  background: white;
+  height: 30vh;
+  border-radius: 8px;
+  padding-top: 10rem;
+  padding: 2rem;
+  margin: 2rem 3rem;
+}
+
+.section-two h1 {
+  width: 60%;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.section-two p {
+  width: 60%;
+  font-size: 1.5rem;
+  max-width: 700px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.section-two a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background: var(--try1);
+  border-radius: 18px;
+}
+
+.section-three {
+  background: white;
+  height: 30vh;
+  border-radius: 8px;
+  padding-top: 10rem;
+  padding: 2rem;
+  margin: 2rem 3rem;
+}
+
+.section-three h1 {
+  width: 60%;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.section-three p {
+  width: 60%;
+  font-size: 1.7rem;
+  max-width: 700px;
+  word-wrap: break-word;
+  text-align: left;
+}
+.section-three a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background: var(--try1);
+  border-radius: 18px;
+}
+
+.footer-class {
+  background-image: linear-gradient(
+    to top,
+    var(--try1) 50%,
+    var(--bg-color) 20%
+  );
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  text-align: left;
+}
+
+.footer-items {
+  background: white;
+  height: 15vh;
+  border-radius: 8px;
+  padding: 1rem 1rem;
+  margin: 2rem;
+  text-align: left;
+}
+
+.footer-class a {
+  text-decoration: none;
+  margin: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background: var(--try1);
+  border-radius: 18px;
+}
+
+.footer-class a:hover {
+  text-decoration: none;
+  margin: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background: var(--hover);
+  border-radius: 18px;
+  border: 2px solid black;
+}
+
+.footer-class ul {
+  padding: 1rem;
+}
+
+.footer-class li {
+  display: inline;
+  font-weight: bold;
+}
+
+.project-one {
+  background: white;
+  height: 30vh;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: left;
+  padding-top: 5rem;
+  padding: 2rem;
+  margin: 7rem 3rem 0rem;
+}
+
+.project-one h1 {
+  width: 60%;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.project-one p {
+  width: 60%;
+  font-size: 1rem;
+  max-width: 700px;
+  word-wrap: break-word;
+  text-align: left;
+  padding: 0rem 0rem 2rem;
+}
+
+.project-one a {
+  text-decoration: none;
+  color: white;
+  margin-right: 2rem;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  background: var(--hover);
+  border-radius: 18px;
+}
+
+.blog-one {
+  background: white;
+  height: 50vh;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: left;
+  padding-top: 4rem;
+  padding: 2rem;
+  margin: 6rem 3rem 0rem;
+}
+
+.blog-one h1 {
+  width: 60%;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.blog-one p {
+  width: 60%;
+  font-size: 1rem;
+  max-width: 700px;
+  word-wrap: break-word;
+  text-align: left;
+  padding: 0rem 0rem 2rem;
+}
+
+.blog-one a {
+  text-decoration: none;
+  color: white;
+  margin-right: 2rem;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  background: var(--hover);
+  border-radius: 18px;
+}
+
+.hero-img-blog img {
+  float: right;
+  padding: 0rem 5rem 0rem 5rem;
+  max-width: 300px;
+  display: block;
+  width: 80%;
+  height: 60%;
+}
+
+.blog-class {
+  background-image: linear-gradient(
+    to bottom,
+    var(--try1) 70%,
+    var(--bg-color) 30%
+  );
+  margin: 0rem;
+  height: 160vh;
+  padding: 3rem;
+}
+
+.blog-text {
+  background: white;
+  height: 160vh;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+}
+.blog-text p {
+  width: 60%;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.blog-text h1 {
+  width: 60%;
+  font-size: 3rem;
+  text-align: left;
+  font-weight: bold;
+}
